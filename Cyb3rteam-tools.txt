@@ -1,0 +1,435 @@
+#!/bin/bash
+#version 1.0
+
+clear
+# Variables
+b='\033[1m'
+u='\033[4m'
+bl='\E[30m'
+r='\E[31m'
+g='\E[32m'
+bu='\E[34m'
+m='\E[35m'
+c='\E[36m'
+w='\E[37m'
+endc='\E[0m'
+enda='\033[0m'
+blue='\e[1;34m'
+cyan='\e[1;36m'
+red='\e[1;31m'
+echo
+echo
+echo
+
+echo "                            [ WELCOME TO MY TOOLS ]       " | lolcat
+echo
+echo ""
+echo "<[🖕]=================================================================$
+echo   "     =                                                              $
+echo   "   =           Created             :      B4ng Sanz                 $
+echo   "   =           Team                :      CYB3R TEAM                $
+echo   "   =           Contact Fb          :      Sanz                      $
+echo   "     =           Message             :      @Rootsystem             $
+echo   "     =           Note                :      NO SYSTEM IS SAVE       $
+echo   "     =                                      ^_^BOCAH SMP BERKARYA   $
+echo   "     =                                                              $
+echo "<[🖕]=================================================================$
+echo ""
+
+
+###################################################
+# CTRL + C                                        #
+##########################
+#########################
+
+trap ctrl_c INT
+ctrl_c() {
+clear
+figlet "          THANKS BRO   " | lolcat
+sleep 1
+echo "TERIMAKASIH UDAH PAKE TOOLS GUE .. " | lolcat
+sleep 1
+echo "                   !!! COMEBACK AGAIN BROTHER !!!" | lolcat
+echo "Contact Me FB : Sanz         " | lolcat
+echo "Created by    : B4ng Sanz      " | lolcat
+sleep 1
+exit
+}
+
+lagi=1
+while [ $lagi -lt 6 ];
+do
+
+sleep 2
+echo "" "####################################" | lolcat
+echo " SILAHKAN PAKAI TOOLS YANG TERSEDIA " | lolcat
+echo "" "####################################" | lolcat
+
+echo ""
+echo  "GUNAKAN SETIAP TOOLS DENGAN BIJAK" |lolcat
+echo  "TUNGGU PROSESNYA............" | lolcat
+sleep 10
+echo ""
+
+echo ""
+echo   $b "1. TOOLS HACK FB MASSAL${enda}";
+echo   "============================" | lolcat
+echo   $b "2. TOOLS Rusmana ID${enda}";
+echo   "============================" | lolcat
+echo   $b "3. TOOLS TAMPILAN TERMUX${enda}";
+echo   "============================" | lolcat
+echo   $b "4. TOOLS HACK FB BERTARGET${enda}";
+echo   "============================" | lolcat
+echo   $b "5. TOOLS B4J1N64Nv6${enda}";
+echo   "============================" | lolcat
+echo   $b "6. Spamcall anlimited${enda}";
+echo   "============================" | lolcat
+echo   $b "7. HACK FB BY MRA27${enda}"
+echo   "============================" | lolcat
+echo   $b "8. HACK FB OSIF${enda}"
+echo   "============================" | lolcat
+echo   $b "9. VIRUS VBUG FOR ANDROID${enda}";
+echo   "============================" | lolcat
+echo   $b "10. VIRUS VBUG 02${enda}";
+echo   "============================" | lolcat
+echo   $b "11. VIRUS BOTLOP${enda}";
+echo   "============================" | lolcat
+echo   $b "12. VIRUS V-CREATES${enda}";
+echo   "============================" | lolcat
+echo   $b "13. VIRUS MALICIOUS${enda}";
+echo   "============================" | lolcat
+echo   $b "14. PISHING WEEMAN${enda}";
+echo   "============================" | lolcat
+echo   $b "15. BELAJAR BAHASA PROGRAM${enda}";
+echo   "============================" | lolcat
+echo   $b "16. TAMPILAN CMATRIX${enda}";
+echo   "============================" | lolcat
+echo   $b "17. SPAM SMS UNLIMITED${enda}";
+echo   "============================" | lolcat
+echo   $b "18. DDOS${enda}";
+echo   "============================" | lolcat
+echo   $b "19. DDOS 02${enda}";
+echo   "============================" | lolcat
+echo   $b "20. TOOLS RADEN${enda}";
+echo   "============================" | lolcat
+echo   $b "21. HACK CCTV${enda}";
+echo   "============================" | lolcat
+echo   $b "22. TOOLS SEFSTERSV3${enda}";
+echo   "============================" | lolcat
+echo   $b "23. FB BRUTE${enda}";
+echo   "============================" | lolcat
+echo   $b "24. HACK FB NARGET${enda}";
+echo   "============================" | lolcat
+echo   $b "25. TOOLS BIMAJABANGV2${enda}";
+echo   "============================" | lolcat
+echo   $b "0. Exit${enda}";
+echo ""
+echo    "╭────B4ngSanz[PILIH AJA NOMERNYA]" | lolcat
+read -p "╰──────#>>> " pil;
+
+case $pil in
+1) figlet -f shadow installing...
+apt update
+apt upgrade
+pkg install python2
+pkg install git
+git clone https://github.com/ilyasahmadalmaki/jamanis
+cd jamanis
+pip2 install mechanize
+python2 MBF.py
+
+;;
+
+2) figlet -f shadow installing...
+apt update && apt upgrade
+pkg ins toilet
+pkg ins figlet
+pkg ins ruby
+pkg ins gem
+gem ins lolcat
+pkg ins php
+pkg ins python2
+pkg ins git
+git clone https://github.com/Rusmana-ID/rus
+cd rus
+sh v2.sh
+
+;;
+
+3) figlet -f shadow installing...
+pkg update && pkg upgrade
+pkg install ruby cowsay toilet figlet
+pkg install neofetch
+pkg install nano
+pkg install ncurses-utils
+pkg install ruby
+pkg install lolcat
+pkg install cowsay
+gem install lolcat
+nano bash.bashrc
+
+;;
+
+4) figlet -f shadow installing...
+apt update
+apt upgrade
+pkg install python2
+pkg install python2-dev
+pkg install git
+git clone https://github.com/senitopeng/fbbrute
+ls
+cd fbbrute
+ls
+chmod +x jomblo.py
+ls
+python2 jomblo.py
+
+;;
+
+5) figlet -f shadow installing...
+apt update && apt upgrade
+apt install git
+apt install php
+apt install figlet
+apt install toilet
+apt install python2
+pip2 install requests
+pip2 install termcolor
+git clone https://github.com/DarknessCyberTeam/BAJINGANv6.git
+cd BAJINGANv6
+sh BAJINGAN.sh
+
+;;
+
+6) figlet -f shadow installing...
+apt update && apt upgrade
+pkg install php
+pkg install git
+git clone https://github.com/Aditya021/SpamCall
+cd SpamCall
+php SpamCall.php
+
+;;
+
+7) figlet -f shadow installing...
+apt update
+apt upgrade
+pkg install git
+pkg install python2
+pip2 install --upgrade pip
+pip2 install mechanize
+git clone https://github.com/MRA27/FBNEW
+cd FBNEW
+python2 MRA27.py
+
+;;
+
+8) figlet -f shadow installing...
+apt update && apt upgrade
+apt install python2
+pip2 install requests mechanize
+apt install git
+git clone https://github.com/CiKu370/OSIF.git
+cd OSIF
+pip2 install -r requirements.txt
+python2 osif.py
+
+;;
+
+9) figlet -f shadow installing...
+termux-setup-storage
+pkg install python2 -y
+pkg install curl -y
+pkg install git -y
+pkg install wget -y
+pkg install unzip -y
+pkg install zip -y
+wget -O vbug.zip
+https://doc-0s-0o-docs.googleusercontent.com/docs/securesc/ha0ro937gcuc7l7de$
+unzip vbug.zip
+cd vbug
+python2 vbug.py
+
+;;
+
+10) figlet -f shadow installing...
+pkg install python2 -y
+pkg install curl -y
+pkg install git -y
+git clone https://github.com/Junior60/vbug/
+ls
+cd vbug
+ls
+chmod +x vbug.py
+ls
+python2 vbug.py
+
+;;
+
+11) figlet -f shadow installing...
+pkg install python2
+pkg install curl
+pkg install bash -y
+pkg install git
+git clone https://github.com/TUANB4DUT/VIRUS
+cd VIRUS
+chmod +x bootloop.sh
+sh bootloop.sh
+
+;;
+
+12) figlet -f shadow installing...
+echo "download apk ini ke gugel" | lolcat
+https://www.datafilehost.com/d/87ca4705
+
+;;
+
+13) figlet -f shadow installing...
+pkg install python2
+pkg install curl
+pip2 install -r requiresement.txt
+pkg install php
+pkg install git
+git clone https://github.com/Hider5/Malicious
+cd Malicious
+apt-get install python2
+pip2 install -r requirements.txt
+python2 malicious.py
+
+;;
+
+14) figlet -f shadow installing..
+apt update && apt upgrade -y
+apt install git -y
+apt install python2 -y
+git clone https://github.com/evait-security/weeman
+cd weeman
+chmod 777 weeman.py
+python2 weeman.py
+
+;;
+
+15) figlet -f shadow installing..
+pkg install git
+git clone https://github.com/Rezzabodong/belajar
+cd belajar
+sh install.sh
+sh start.sh
+
+;;
+
+16) figlet -f shadow installing..
+pkg install cmatrix
+cmatrix
+
+;;
+
+18) figlet -f shadow installing...
+pkg install python2
+pkg install git
+git clone https://github.com/ganucisystem/ddos
+cd ddos
+chmod +x dor.py
+python2 dor.py
+
+;;
+
+19) figlet -f shadow installing...
+apt update && apt upgrade -y
+pkg install python2
+git clone https://github.com/Rezzabodong/DefaceTool.git
+cd DefaceToll
+sh start.sh
+
+;;
+
+20) figlet -f shadow installing...
+pkg install python2 && pip2 install mechanize
+pkg install python python2 vim figlet curl
+pkg install php
+pip2 install lolcat
+pkg install git
+git clone https://github.com/ganucisystem/radenku
+cd radenku
+chmod +x zallgans.sh
+sh zallgans.sh
+
+;;
+
+21) figlet -f shadow installing...
+apt update && apt upgrade
+pkg install git
+pip2 install requests
+git clone https://github.com/kancotdiq/ipcs
+cd ipcs
+python2 scan.py
+
+;;
+
+22) figlet -f shadow installing..
+apt update && apt upgrade -y
+pkg install python2 -y
+pkg install figlet -y
+pkg install ruby -y
+gem install lolcat -y
+pkg install php -y
+pkg install git -y
+git clpne https://github.com/ganucisystem/sefstersV3
+cd sefstersV3
+chmod +x islamic.sh
+./islamic.sh
+
+;;
+
+23) figlet -f shadow installing..
+apt update && apt upgrade
+apt install python2
+apt install python2-dev
+apt install wget
+apt install git
+git clone https://github.com/kodrat01/fbbrute
+cd fbbrute
+python2 fbbrute.py
+
+;;
+
+24) figlet -f shadow installing..
+apt update && apt upgrade
+pkg install php
+pkg install git
+pkg install figlet
+pkg install toilet
+pkg install lolcat
+pip2 install requests
+pip2 install termcolor
+git clone https://github.com/mbest99/MIXINGS.git
+cd MIXINGS
+bash Oppay.sh
+
+;;
+
+25) figlet -f shadow installing..
+pkg update && pkg upgrade
+pkg install figlet
+pkg install php
+pkg install python python2 vim figlet curl
+pip2 install lolcat
+pkg install git
+git clone http://github.com/intect15/bimajabangversi2
+cd bimajabangversi2
+sh cyb3r_ghostv2.sh
+
+;;
+
+0) sleep 1
+   echo "Contact Me FB : Sanz" | lolcat
+   echo "Created by    : B4ng Sanz" | lolcat
+exit
+;;
+
+*) sleep 1
+   echo "Maaf, pilihan yang anda cari tidak ada gblk!!" | lolcat
+   echo "Sonoh mendingan coli aja bocah!!" | lolcat
+esac
+done
+done
